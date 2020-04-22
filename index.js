@@ -1,10 +1,5 @@
 // Write your code here!
-let ul = document.createElement('ul')
+main.remove();
+let newHeader = document.createElement("h1#victory");
+newHeader.innerHTML = "Evan is the champion";
 
-for (let i = 0; i < 3; i++) {
-  let li = document.createElement('li')
-  li.innerHTML = (i + 1).toString()
-  ul.appendChild(li)
-}
-
-element.appendChild(ul)
