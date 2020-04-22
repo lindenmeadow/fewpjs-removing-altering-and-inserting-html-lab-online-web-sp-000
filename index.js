@@ -1,4 +1,4 @@
 // Write your code here!
 main.remove();
 let newHeader = document.querySelector('h1#victory');
-newHeader.innerHTML = "You are the champion";
+newHeader.innerHTML = "YOUR-NAME are the champion";
